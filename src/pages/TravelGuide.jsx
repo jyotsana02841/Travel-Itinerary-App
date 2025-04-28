@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar.jsx";
 import Card from "../components/TravelGuide/Card.jsx";
 import Button from "../components/TravelGuide/Button.jsx";
 import Footer from "./../components/Footer.jsx";
-import "./../styles/TravelGuide/TravelGuide.css";
+import "./../styles/TravelGuide/Travelguide.css";
 import { cards } from "../data/cards.js";
 
 const TravelGuide = () => {
