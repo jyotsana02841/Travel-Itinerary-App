@@ -1,0 +1,30 @@
+.footer-container { 
+  color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-top: 1px solid #eee;
+}
+
+.footer-container .footer-icon { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-container .footer-icon:hover {
+  color: #007bff;
+}
+
+.footer-container .footer-icon.active {
+  color: #007bff;
+}

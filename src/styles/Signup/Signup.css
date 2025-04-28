@@ -1,0 +1,147 @@
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.sign-up-card {
+  width: 350px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.sign-up-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #222;
+  text-align: center;
+}
+
+.facebook-button {
+  padding: 12px;
+  background-color: #0f42af;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.facebook-icon {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+
+.google-button {
+  padding: 12px;
+  background-color: white;
+  color:#222;
+  font-weight: bold;
+  border: none;
+  border: 1px solid #a39e9e;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.google-icon {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.separator::before,
+.separator::after {
+  flex: 1;
+  content: '';
+  border-top: 1px solid #ddd;
+}
+
+.separator-text {
+  margin: 0 10px;
+  color: #777;
+  font-size: 14px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.email-input,
+.password-input {
+  padding: 12px;
+  border: 1px solid #c0b9b9 !important;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #222;
+}
+
+
+
+
+
+.password-input {
+  position: relative;
+}
+
+
+
+.sign-up-button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #222;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.login-link {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+.login-link a {
+  color:#222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

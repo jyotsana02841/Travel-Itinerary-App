@@ -1,0 +1,206 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+}
+
+.text {
+  font-family: 'Mont', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.tokyo,
+.flight {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tokyo img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.flight img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.accomodation .card {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  gap: 20px; 
+  padding-bottom: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+.accomodation .card .card-container {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  width: 320px;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.activities .img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.activities img {
+  width: 100%;
+  max-width: 600px;
+  height: 114px;
+  object-fit: cover;
+}
+
+.buttons {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.btn1 {
+  padding: 12px 24px;
+  background-color: #3643FB;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+  background-color: #2a35c2; 
+}
+
+.btn2 {
+  color: #3643FB;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .main {
+    padding: 20px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .tokyo img,
+  .flight img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .accomodation .card {
+    flex-direction: row;
+  }
+
+  .accomodation .card .card-container {
+    width: 320px;
+    margin-right: 20px;
+  }
+
+  .activities img {
+    max-width: 500px;
+    height: auto;
+  }
+
+  .buttons {
+    gap: 20px;
+  }
+
+  .btn1,
+  .btn2 {
+    font-size: 18px;
+    padding: 14px 28px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .text {
+    font-size: 14px;
+  }
+
+  .activities img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .btn1,
+  .btn2 {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .tokyo img,
+  .flight img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .accomodation .card {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .accomodation .card .card-container {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+}

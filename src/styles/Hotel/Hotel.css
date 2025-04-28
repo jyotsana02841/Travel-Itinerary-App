@@ -1,0 +1,269 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  width: 100%; 
+}
+
+/* Main Search Container */
+.hotel-search-container {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(#fff, #888);
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.main-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #2d3748;
+  max-width: 100%; 
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #4a5568;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%; 
+  max-width: 1200px; 
+  justify-content: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  min-width: 150px;
+}
+
+.input-group label {
+  font-size: 12px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: black;
+}
+
+.date-picker,
+.rooms-guests {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.search-button {
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #e14b4f;
+}
+
+.status {
+  color: #d6c7c7;
+  display: flex;
+  gap: 15px;
+}
+
+.two {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.all-in-one-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  background-color: #f9fafb;
+  gap: 40px;
+  width: 100%;
+}
+
+.text-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.all-in-one-container .title {
+  font-size: 24px;
+  color: #2d3748;
+  margin-bottom: 20px;
+}
+
+.all-in-one-container .description {
+  font-size: 16px;
+  color: #4a5568;
+  line-height: 1.7;
+}
+
+.image {
+  width: 100%;
+  max-width: 308px;
+  height: auto;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.hotel-features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  width: 100%;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 379px;
+  height: auto;
+  text-align: left;
+}
+
+.feature-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-size: 20px;
+  color: #2d3748;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 16px;
+  color: #4a5568;
+  line-height: 1.7;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.lower .one {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 25px;
+}
+
+.lower .two {
+  font-size: 20px;
+  color: #4a5568;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hotel-search-container {
+    padding: 40px 15px;
+  }
+
+  .main-title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  .content {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .all-in-one-container {
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .text-section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hotel-features-container {
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .feature-item {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .lower .one {
+    font-size: 24px;
+  }
+
+  .lower .two {
+    font-size: 18px;
+  }
+}

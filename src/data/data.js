@@ -1,0 +1,32 @@
+export const data = [
+  {
+    id: 1,
+    img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/ee/2d/9d/jw-marriott-hotel-mumbai.jpg?w=900&h=500&s=1",
+    title: "Shinagawa Prince Hotel",
+    checkin: "26.01.2025, 11:15 pm",
+    checkout: "28.01.2025, 11:15 am",
+    time: "2 Nights",
+    status: "Confirmed",
+    rating: "4.0 Very Good",
+  },
+  {
+    id: 2,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQab0PBCKJiH9MszgjOPSQt6FUbzT8K53LfHw&s",
+    title: "Mercure Tokyo Hotel",
+    checkin: "28.01.2025, 6:00 pm",
+    checkout: "30.01.2025, 11:11 am",
+    time: "2 Nights",
+    status: "Pending",
+    rating: "4.0 Very Good",
+  },
+  {
+    id: 3,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvR7AIeV0NqguAg6T9bod-gCmJt1lG7bItoA&s",
+    title: "Shinagawa Prince Hotel",
+    checkin: "25.01.2025, 11:15 pm",
+    checkout: "28.01.2025, 11:15 am",
+    time: "2 Nights",
+    status: "Confirmed",
+    rating: "4.0 Very Good",
+  },
+];

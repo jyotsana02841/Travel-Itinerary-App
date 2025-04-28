@@ -1,0 +1,15 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.one {
+  margin-left: 20px;
+}
+
+.two {
+  color: #3643FB;
+  margin-right: 5px;
+  text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* In your global CSS or top of Dashboard.css */
+body, html {
+
+  height: 100vh; /* Ensure full viewport height */
+}
